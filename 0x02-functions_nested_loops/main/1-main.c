@@ -15,6 +15,8 @@ int main(void)
     /*_abs(-1);*/
     /*print_last_digit(98876);*/
     /*jack_bauer();*/
-    times_table();
+    /*times_table();*/
+    /*add(1, 2);*/
+    print_to_98(98);
     return (0);
 }
