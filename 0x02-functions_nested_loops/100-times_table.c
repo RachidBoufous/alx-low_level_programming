@@ -1,13 +1,21 @@
 #include "main.h"
 
+/**
+ * print_times_table - prints the n times table, starting with 0
+ * @n: the number to print the times table of
+ * description: if n is greater than 15 or less than 0, the function does nothing
+ * Return: void
+ */
 
 void print_times_table(int n)
 {
 	int i, j;
+	if (n > 15 || n < 0)
+		return;
 
-	for (i = 0; i <= n; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j <= n; j++)
+		for (j = 0; j < n; j++)
 		{
 			if (i * j < 10)
 			{
@@ -32,3 +40,4 @@ void print_times_table(int n)
 		_putchar('\n');
 	}
 }
+
