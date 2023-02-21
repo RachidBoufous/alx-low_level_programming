@@ -12,6 +12,7 @@ int main(void)
     /*_islower('a');*/
     /*_isalpha('a');*/
     /*print_sign(98);*/
-    _abs(-1);
+    /*_abs(-1);*/
+    print_last_digit(98);
     return (0);
 }
