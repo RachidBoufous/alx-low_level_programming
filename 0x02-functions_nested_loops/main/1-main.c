@@ -11,6 +11,7 @@ int main(void)
     /*print_alphabet_x10();*/
     /*_islower('a');*/
     /*_isalpha('a');*/
-    print_sign(98);
+    /*print_sign(98);*/
+    _abs(-1);
     return (0);
 }
