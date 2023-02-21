@@ -13,6 +13,7 @@ int main(void)
     /*_isalpha('a');*/
     /*print_sign(98);*/
     /*_abs(-1);*/
-    print_last_digit(98);
+    /*print_last_digit(98876);*/
+    jack_bauer();
     return (0);
 }
