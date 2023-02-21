@@ -17,6 +17,7 @@ int main(void)
     /*jack_bauer();*/
     /*times_table();*/
     /*add(1, 2);*/
-    print_to_98(-111);
+    /*print_to_98(-111);*/
+    print_times_table(3);
     return (0);
 }
