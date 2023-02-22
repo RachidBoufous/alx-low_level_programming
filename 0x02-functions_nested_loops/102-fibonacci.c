@@ -11,7 +11,7 @@
 int main() {
 	int count, fib1 = 0, fib2 = 1, sum;
 
-	//Prints the first 50 numbers in the Fibonacci sequence
+	/*Prints the first 50 numbers in the Fibonacci sequence*/
 	for (count = 0; count < 50; ++count)
 	{
 		sum = fib1 + fib2;
