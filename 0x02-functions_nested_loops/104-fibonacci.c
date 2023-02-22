@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 /**
- * numLength - returns the length of a number
- * description: returns the length of a number
- * @num: number to be checked
- * return: length of a number
- */
+ * numLength - returns the length of string
+ *
+ * @num: operand number
+ *
+ * Return: number of digits
+*/
+
 
 int numLength(int num)
 {
-	int length = 0;
+	int number_length = 0;
 
 	if (!num)
 		return (1);
@@ -17,23 +19,17 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		length += 1;
+		number_length += 1;
 	}
 
-	return (length);
+	return (number_length);
 }
 
 /**
- * main - Entry point
- *
- * Description: prints the first 98 Fibonacci numbers
- *starting with 1 and 2 followed by a new line
- *
- *	Solution was copied from Nobert Patrick
- *	Wise, github handle: Trikcode
- *
- * Return: Always 0 (Success)
-*/
+ * main - entry point
+ * description: prints the first 98 numbers in the Fibonacci sequence
+ * Return: 0
+ */
 
 int main(void)
 {
