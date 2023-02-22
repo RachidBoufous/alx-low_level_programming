@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include <unistd.h>
 
@@ -10,7 +9,7 @@
 
 
 int main() {
-    int count, fib1 = 0, fib2 = 1, sum;
+	int count, fib1 = 0, fib2 = 1, sum;
 
 	//Prints the first 50 numbers in the Fibonacci sequence
 	for (count = 0; count < 50; ++count)
