@@ -8,6 +8,21 @@
  * Return: largest prime factor of n
  */
 
+/* _sqrt: function to calculate square root of number*/
+double _sqrt(double n)
+{
+	double x = n;
+	double y = 1;
+	double e = 0.000000001; /* e decides the accuracy level*/
+
+	while (x - y > e)
+	{
+		x = (x + y) / 2;
+		y = n / x;
+	}
+	return x;
+}
+
 /* function to find the largest prime factor of a number n given*/
 
 int largest_prime_factor(long n)
@@ -22,7 +37,7 @@ int largest_prime_factor(long n)
 	}
 
 	/*now n is odd, so we can skip one element (Note i = i +2)*/
-	for (i = 3; i <= sqrt(n); i += 2)
+	for (i = 3; i <= _sqrt(n); i += 2)
 	{
 		while (n % i == 0)
 		{
