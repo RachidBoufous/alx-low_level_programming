@@ -35,8 +35,9 @@ int main(void)
 {
 	int n = 612852475143;
 	int largest_prime = 2;
-
-	for (int i = 1; i < n; i++)
+	int i;
+	
+	for (i = 1; i < n; i++)
 	{
 		if (n % i == 0 && is_prime(i) == 1)
 		{
