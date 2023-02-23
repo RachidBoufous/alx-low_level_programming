@@ -1,0 +1,1 @@
+0. is upper: check if a character is upper case
