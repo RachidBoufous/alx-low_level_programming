@@ -9,18 +9,19 @@
  */
 
 /* _sqrt: function to calculate square root of number*/
-double _sqrt(double n)
+double _sqrt(double x)
 {
-	double x = n;
-	double y = 1;
-	double e = 0.000000001; /* e decides the accuracy level*/
+	float sqrt, tmp;
 
-	while (x - y > e)
+	sqrt = x / 2;
+	tmp = 0;
+
+	while (sqrt != tmp)
 	{
-		x = (x + y) / 2;
-		y = n / x;
+		tmp = sqrt;
+		sqrt = (x / tmp + tmp) / 2;
 	}
-	return x;
+	return (sqrt);
 }
 
 /* function to find the largest prime factor of a number n given*/
