@@ -3,7 +3,7 @@
 /**
  * cap_string - capitalizes all words of a string
  * description: capitalizes all words of a string
- * @str: string to be capitalized
+ * @s: string to be capitalized
  * Return: pointer to the resulting string str
  * author: @RachidBoufous
  */
