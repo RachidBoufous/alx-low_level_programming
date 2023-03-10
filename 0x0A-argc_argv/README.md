@@ -1,0 +1,1 @@
+0.print the program name and exit
